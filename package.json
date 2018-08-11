@@ -1,0 +1,22 @@
+{
+  "name": "max-product-in-array",
+  "version": "1.0.0",
+  "description": "find maximum product in an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-array"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akansh-bhushan/max-product-in-array.git"
+  },
+  "keywords": [
+    "max-product-in-array"
+  ],
+  "author": "Akansh Bhushan Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akansh-bhushan/max-product-in-array/issues"
+  },
+  "homepage": "https://github.com/akansh-bhushan/max-product-in-array#readme"
+}
