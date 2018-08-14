@@ -45,7 +45,7 @@ module.exports = function(array, limit) {
             return MaxProduct;
         }
         else{
-            var sorted_array = array.sort(diff);console.log('>>>>>>>>>>',sorted_array)
+            var sorted_array = array.sort(diff);
             for(var i = 0; i<limit-1;i++){
                   val1 = val1 * sorted_array[i];  
             }
