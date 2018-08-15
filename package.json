@@ -1,6 +1,6 @@
 {
   "name": "max-product-in-array",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "find maximum product in an array",
   "main": "index.js",
   "scripts": {
