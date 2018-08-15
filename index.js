@@ -14,7 +14,8 @@ module.exports = function(array, limit) {
     else{
         function diff(param1,param2){
             return param1-param2;
-            }
+        }
+       
             var sorted_array = array.sort(diff);
             var maxProduct = 1;
             for(var j=0;j<sorted_array.length;j++){
@@ -24,8 +25,10 @@ module.exports = function(array, limit) {
                     if(i > sorted_array.length-1){
                         counter = i-sorted_array.length;
                     }
-                    product = product*sorted_array[counter];                       
+                    product = product*sorted_array[counter];
+                       
                 }
+                maxProduct = Math.max(maxProduct,product);
             }
             return maxProduct;
             
